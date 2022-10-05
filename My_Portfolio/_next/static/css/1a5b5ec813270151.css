@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+:root {
+    --m-background-color: #000;
+    --m-main-purple-color: #7b61ff;
+}
+.theme_1 {
+    --t-hero-primary-background-color: #fef6e4;
+    --t-hero-paragraph: #172c66;
+    --t-hero-button-color: #f582ae;
+    --t-hero-button-text: #001858;
+    --t-hero-heading: #001858;
+    --t-skills-background: #f3d2c1;
+    --t-skills-icon: #f582ae;
+    --t-skills-text: #172c66;
+    --t-skills-heading: #001858;
+    --t-projects-heading: #001858;
+    --t-projects-background: #fef6e4;
+    --t-projects-paragraph: #fef6e4;
+    --t-projects-card-background: #001858;
+    --t-projects-card-heading: #fffffe;
+    --t-projects-card-hover: #fffffe;
+    --t-footer-heading: #001858;
+    --t-footer-paragraph: #fffffe;
+    --t-footer-icons-hover: #f582ae;
+    --t-footer-background: #f3d2c1;
+}
+.theme_2 {
+    --t-hero-primary-background-color: #55423d;
+    --t-hero-paragraph: #fff3ec;
+    --t-hero-button-color: #ffc0ad;
+    --t-hero-button-text: #271c19;
+    --t-hero-heading: #fffffe;
+    --t-skills-background: #271c19;
+    --t-skills-icon: #ffc0ad;
+    --t-skills-text: #fff3ec;
+    --t-skills-heading: #fffffe;
+    --t-projects-heading: #fffffe;
+    --t-projects-background: #55423d;
+    --t-projects-paragraph: #271c19;
+    --t-projects-card-background: #ffc0ad;
+    --t-projects-card-heading: #271c19;
+    --t-projects-card-hover: #271c19;
+    --t-footer-heading: #fffffe;
+    --t-footer-paragraph: #fff3ec;
+    --t-footer-icons-hover: #ffc0ad;
+    --t-footer-background: #271c19;
+}
+.theme_3 {
+    --t-hero-primary-background-color: #fffffe;
+    --t-hero-paragraph: #2d334a;
+    --t-hero-button-color: #ffd803;
+    --t-hero-button-text: #272343;
+    --t-hero-heading: #272343;
+    --t-skills-background: #e3f6f5;
+    --t-skills-icon: #ffd803;
+    --t-skills-text: #2d334a;
+    --t-skills-heading: #272343;
+    --t-projects-heading: #272343;
+    --t-projects-background: #fffffe;
+    --t-projects-paragraph: #fffffe;
+    --t-projects-card-background: #272343;
+    --t-projects-card-heading: #fffffe;
+    --t-projects-card-hover: #bae8e8;
+    --t-footer-heading: #272343;
+    --t-footer-paragraph: #2d334a;
+    --t-footer-icons-hover: #ffd803;
+    --t-footer-background: #e3f6f5;
+}
+.theme_4 {
+    --t-hero-primary-background-color: #0f0e17;
+    --t-hero-paragraph: #a7a9be;
+    --t-hero-button-color: #ff8906;
+    --t-hero-button-text: #fffffe;
+    --t-hero-heading: #fffffe;
+    --t-skills-background: #fffffe;
+    --t-skills-icon: #ff8906;
+    --t-skills-text: #2e2f3e;
+    --t-skills-heading: #0f0e17;
+    --t-projects-heading: #fffffe;
+    --t-projects-background: #0f0e17;
+    --t-projects-paragraph: #2e2f3e;
+    --t-projects-card-background: #fffffe;
+    --t-projects-card-heading: #ff8906;
+    --t-projects-card-hover: #bae8e8;
+    --t-footer-heading: #0f0e17;
+    --t-footer-paragraph: #a7a9be;
+    --t-footer-icons-hover: #ff8906;
+    --t-footer-background: #fffffe;
+}
+.theme_5 {
+    --t-hero-primary-background-color: #fffffe;
+    --t-hero-paragraph: #2b2c34;
+    --t-hero-button-color: #6246ea;
+    --t-hero-button-text: #fffffe;
+    --t-hero-heading: #2b2c34;
+    --t-skills-background: #d1d1e9;
+    --t-skills-icon: #6246ea;
+    --t-skills-text: #2b2c34;
+    --t-skills-heading: #2b2c34;
+    --t-projects-heading: #2b2c34;
+    --t-projects-background: #fffffe;
+    --t-projects-paragraph: #2b2c34;
+    --t-projects-card-background: #d1d1e9;
+    --t-projects-card-heading: #2b2c34;
+    --t-projects-card-hover: #2b2c34;
+    --t-footer-heading: #2b2c34;
+    --t-footer-paragraph: #858796;
+    --t-footer-icons-hover: #6246ea;
+    --t-footer-background: #d1d1e9;
+}
+.theme_6 {
+    --t-hero-primary-background-color: #004643;
+    --t-hero-paragraph: #abd1c6;
+    --t-hero-button-color: #f9bc60;
+    --t-hero-button-text: #001e1d;
+    --t-hero-heading: #fffffe;
+    --t-skills-background: #abd1c6;
+    --t-skills-icon: #f9bc60;
+    --t-skills-text: #0f3433;
+    --t-skills-heading: #001e1d;
+    --t-projects-heading: #fffffe;
+    --t-projects-background: #004643;
+    --t-projects-paragraph: #0f3433;
+    --t-projects-card-background: #e8e4e6;
+    --t-projects-card-heading: #001e1d;
+    --t-projects-card-hover: #001e1d;
+    --t-footer-heading: #001e1d;
+    --t-footer-paragraph: #397573;
+    --t-footer-icons-hover: #fffffe;
+    --t-footer-background: #abd1c6;
+}
+.theme_7 {
+    --t-hero-primary-background-color: #232946;
+    --t-hero-paragraph: #b8c1ec;
+    --t-hero-button-color: #eebbc3;
+    --t-hero-button-text: #fffffe;
+    --t-hero-heading: #fffffe;
+    --t-skills-background: #d4d8f0;
+    --t-skills-icon: #eebbc3;
+    --t-skills-text: #232946;
+    --t-skills-heading: #232946;
+    --t-projects-heading: #fffffe;
+    --t-projects-background: #232946;
+    --t-projects-paragraph: #232946;
+    --t-projects-card-background: #fffffe;
+    --t-projects-card-heading: #232946;
+    --t-projects-card-hover: #fffffe;
+    --t-footer-heading: #232946;
+    --t-footer-paragraph: #7582c7;
+    --t-footer-icons-hover: #232946;
+    --t-footer-background: #d4d8f0;
+}
+.theme_8 {
+    --t-hero-primary-background-color: #faeee7;
+    --t-hero-paragraph: #594a4e;
+    --t-hero-button-color: #ff8ba7;
+    --t-hero-button-text: #33272a;
+    --t-hero-heading: #33272a;
+    --t-skills-background: #fffffe;
+    --t-skills-icon: #ff8ba7;
+    --t-skills-text: #594a4e;
+    --t-skills-heading: #33272a;
+    --t-projects-heading: #33272a;
+    --t-projects-background: #faeee7;
+    --t-projects-paragraph: #594a4e;
+    --t-projects-card-background: #fffffe;
+    --t-projects-card-heading: #33272a;
+    --t-projects-card-hover: #594a4e;
+    --t-footer-heading: #33272a;
+    --t-footer-paragraph: #594a4e;
+    --t-footer-icons-hover: #594a4e;
+    --t-footer-background: #fffffe;
+}
+.theme_9 {
+    --t-hero-primary-background-color: #fffffe;
+    --t-hero-paragraph: #1b2d45;
+    --t-hero-button-color: #00ebc7;
+    --t-hero-button-text: #00214d;
+    --t-hero-heading: #00214d;
+    --t-skills-background: #f2f4f6;
+    --t-skills-icon: #00ebc7;
+    --t-skills-text: #1b2d45;
+    --t-skills-heading: #00214d;
+    --t-projects-heading: #00214d;
+    --t-projects-background: #fffffe;
+    --t-projects-paragraph: #1b2d45;
+    --t-projects-card-background: #f2f4f6;
+    --t-projects-card-heading: #00214d;
+    --t-projects-card-hover: #1b2d45;
+    --t-footer-heading: #00214d;
+    --t-footer-paragraph: #5578a7;
+    --t-footer-icons-hover: #5578a7;
+    --t-footer-background: #f2f4f6;
+}
+.theme_10 {
+    --t-hero-primary-background-color: #16161a;
+    --t-hero-paragraph: #94a1b2;
+    --t-hero-button-color: #7f5af0;
+    --t-hero-button-text: #fffffe;
+    --t-hero-heading: #fffffe;
+    --t-skills-background: #242629;
+    --t-skills-icon: #7f5af0;
+    --t-skills-text: #fffffe;
+    --t-skills-heading: #fffffe;
+    --t-projects-heading: #fffffe;
+    --t-projects-background: #16161a;
+    --t-projects-card-background: #242629;
+    --t-projects-card-heading: #fffffe;
+    --t-projects-paragraph: #94a1b2;
+    --t-projects-card-hover: gray;
+    --t-footer-heading: #fffffe;
+    --t-footer-paragraph: #94a1b2;
+    --t-footer-icons-hover: #7f5af0;
+    --t-footer-background: #242629;
+}
+.theme_11 {
+    --t-hero-primary-background-color: #16161a;
+    --t-hero-paragraph: #94a1b2;
+    --t-hero-button-color: #059dc0;
+    --t-hero-button-text: #fffffe;
+    --t-hero-heading: #fffffe;
+    --t-skills-background: #242629;
+    --t-skills-icon: #059dc0;
+    --t-skills-text: #fffffe;
+    --t-skills-heading: #fffffe;
+    --t-projects-heading: #fffffe;
+    --t-projects-background: #16161a;
+    --t-projects-card-background: #242629;
+    --t-projects-card-heading: #fffffe;
+    --t-projects-paragraph: #94a1b2;
+    --t-projects-card-hover: gray;
+    --t-footer-heading: #fffffe;
+    --t-footer-paragraph: #94a1b2;
+    --t-footer-icons-hover: #059dc0;
+    --t-footer-background: #242629;
+}
+.theme_12 {
+    --t-hero-primary-background-color: #fffffe;
+    --t-hero-paragraph: #1b2d45;
+    --t-hero-button-color: #3da9fc;
+    --t-hero-button-text: #094067;
+    --t-hero-heading: #00214d;
+    --t-skills-background: #d8eefe;
+    --t-skills-icon: #3da9fc;
+    --t-skills-text: #094067;
+    --t-skills-heading: #094067;
+    --t-projects-heading: #094067;
+    --t-projects-background: #fffffe;
+    --t-projects-paragraph: #d8eefe;
+    --t-projects-card-background: #094067;
+    --t-projects-card-heading: #fffffe;
+    --t-projects-card-hover: #1b2d45;
+    --t-footer-heading: #094067;
+    --t-footer-paragraph: #5578a7;
+    --t-footer-icons-hover: #3da9fc;
+    --t-footer-background: #d8eefe;
+}
+.theme_13 {
+    --t-hero-primary-background-color: #eff0f3;
+    --t-hero-paragraph: #2a2a2a;
+    --t-hero-button-color: #ff8e3c;
+    --t-hero-button-text: #0d0d0d;
+    --t-hero-heading: #0d0d0d;
+    --t-skills-background: #fffffe;
+    --t-skills-icon: #ff8e3c;
+    --t-skills-text: #2a2a2a;
+    --t-skills-heading: #0d0d0d;
+    --t-projects-heading: #0d0d0d;
+    --t-projects-background: #eff0f3;
+    --t-projects-paragraph: #2a2a2a;
+    --t-projects-card-background: #fffffe;
+    --t-projects-card-heading: #ff8e3c;
+    --t-projects-card-hover: #fffffe;
+    --t-footer-heading: #0f0e17;
+    --t-footer-paragraph: #a7a9be;
+    --t-footer-icons-hover: #ff8e3c;
+    --t-footer-background: #fffffe;
+}
+.theme_14 {
+    --t-hero-primary-background-color: #0f0e17;
+    --t-hero-paragraph: #a7a9be;
+    --t-hero-button-color: #d9376e;
+    --t-hero-button-text: #fffffe;
+    --t-hero-heading: #fffffe;
+    --t-skills-background: #fffffe;
+    --t-skills-icon: #d9376e;
+    --t-skills-text: #2e2f3e;
+    --t-skills-heading: #0f0e17;
+    --t-projects-heading: #fffffe;
+    --t-projects-background: #0f0e17;
+    --t-projects-paragraph: #2e2f3e;
+    --t-projects-card-background: #fffffe;
+    --t-projects-card-heading: #d9376e;
+    --t-projects-card-hover: #fffffe;
+    --t-footer-heading: #0f0e17;
+    --t-footer-paragraph: #a7a9be;
+    --t-footer-icons-hover: #d9376e;
+    --t-footer-background: #fffffe;
+}
+.custom_scrollbar {
+    scroll-behavior: smooth;
+    scrollbar-width: normal;
+    scrollbar-color: #777 #555;
+}
+.custom_scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+.custom_scrollbar::-webkit-scrollbar-thumb {
+    background-color: #7775;
+    border-radius: 5px;
+}
+.custom_scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+.custom_scrollbar::-webkit-scrollbar-track {
+    background-color: #5555;
+}
+.custom_scrollbar::-webkit-scrollbar-track:hover {
+    background-color: #555;
+}
